@@ -20,7 +20,7 @@
             <String label="SeatNumber" v-model="value.seatNumber" :editMode="editMode" :inputUI="''"/>
             <String label="MovieId" v-model="value.movieId" :editMode="editMode" :inputUI="''"/>
             <String label="UserId" v-model="value.userId" :editMode="editMode" :inputUI="''"/>
-            <Number label="SeaCount" v-model="value.seaCount" :editMode="editMode" :inputUI="''"/>
+            <Number label="SeatCount" v-model="value.seatCount" :editMode="editMode" :inputUI="''"/>
         </v-card-text>
 
         <v-card-actions>
@@ -39,14 +39,7 @@
                     text
                     @click="save"
                 >
-                    Cancel
-                </v-btn>
-                <v-btn
-                    color="primary"
-                    text
-                    @click="save"
-                >
-                    Ticketing
+                저장
                 </v-btn>
                 <v-btn
                     color="primary"

@@ -21,6 +21,7 @@
             <String label="StartTime" v-model="value.startTime" :editMode="editMode" :inputUI="''"/>
             <String label="EndTime" v-model="value.endTime" :editMode="editMode" :inputUI="''"/>
             <String label="Director" v-model="value.director" :editMode="editMode" :inputUI="''"/>
+            <Number label="SeatCount" v-model="value.seatCount" :editMode="editMode" :inputUI="''"/>
         </v-card-text>
 
         <v-card-actions>

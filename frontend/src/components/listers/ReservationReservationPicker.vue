@@ -27,7 +27,7 @@
                                 UserId :  {{item.userId }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                SeaCount :  {{item.seaCount }}
+                                SeatCount :  {{item.seatCount }}
                             </v-list-item-subtitle>
                         </v-list-item-content>
 

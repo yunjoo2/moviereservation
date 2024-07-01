@@ -17,6 +17,7 @@ public class MovieSelected extends AbstractEvent {
     private String director;
     private String startTime;
     private String endTime;
+    private Integer seatCount;
 
     public MovieSelected(Movie aggregate) {
         super(aggregate);

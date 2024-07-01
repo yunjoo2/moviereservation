@@ -27,7 +27,7 @@ public class Reservation {
 
     private String userId;
 
-    private Integer seaCount;
+    private Integer seatCount;
 
     @PostPersist
     public void onPostPersist() {
@@ -44,5 +44,62 @@ public class Reservation {
         );
         return reservationRepository;
     }
+
+    //<<< Clean Arch / Port Method
+    public static void reservationCancellation(Myinfoselected myinfoselected) {
+        //implement business logic here:
+
+        /** Example 1:  new item 
+        Reservation reservation = new Reservation();
+        repository().save(reservation);
+
+        Canceled canceled = new Canceled(reservation);
+        canceled.publishAfterCommit();
+        */
+
+        /** Example 2:  finding and process
+        
+        repository().findById(myinfoselected.get???()).ifPresent(reservation->{
+            
+            reservation // do something
+            repository().save(reservation);
+
+            Canceled canceled = new Canceled(reservation);
+            canceled.publishAfterCommit();
+
+         });
+        */
+
+    }
+
+    //>>> Clean Arch / Port Method
+    //<<< Clean Arch / Port Method
+    public static void reservationStarts(MovieSelected movieSelected) {
+        //implement business logic here:
+
+        /** Example 1:  new item 
+        Reservation reservation = new Reservation();
+        repository().save(reservation);
+
+        Completed completed = new Completed(reservation);
+        completed.publishAfterCommit();
+        */
+
+        /** Example 2:  finding and process
+        
+        repository().findById(movieSelected.get???()).ifPresent(reservation->{
+            
+            reservation // do something
+            repository().save(reservation);
+
+            Completed completed = new Completed(reservation);
+            completed.publishAfterCommit();
+
+         });
+        */
+
+    }
+    //>>> Clean Arch / Port Method
+
 }
 //>>> DDD / Aggregate Root

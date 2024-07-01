@@ -18,7 +18,7 @@
                 <String label="UserId" v-model="item.userId" :editMode="editMode" @change="change" />
             </div>
             <div>
-                <Number label="SeaCount" v-model="item.seaCount" :editMode="editMode" @change="change" />
+                <Number label="SeatCount" v-model="item.seatCount" :editMode="editMode" @change="change" />
             </div>
         </v-card-text>
 

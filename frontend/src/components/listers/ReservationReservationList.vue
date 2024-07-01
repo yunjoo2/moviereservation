@@ -54,7 +54,7 @@
                             [ SeatNumber :  {{data.seatNumber }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ MovieId :  {{data.movieId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ UserId :  {{data.userId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ SeaCount :  {{data.seaCount }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ SeatCount :  {{data.seatCount }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
                     </v-list-item-content>
@@ -126,7 +126,7 @@
                 'seatNumber': '',
                 'movieId': '',
                 'userId': '',
-                'seaCount': 0,
+                'seatCount': 0,
             }
         },
         methods: {

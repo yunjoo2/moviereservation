@@ -36,8 +36,9 @@ public class PolicyHandler {
             myinfoselected +
             "\n\n"
         );
-        // Sample Logic //
 
+        // Sample Logic //
+        Reservation.reservationCancellation(event);
     }
 
     @StreamListener(
@@ -51,8 +52,9 @@ public class PolicyHandler {
         System.out.println(
             "\n\n##### listener ReservationStarts : " + movieSelected + "\n\n"
         );
-        // Sample Logic //
 
+        // Sample Logic //
+        Reservation.reservationStarts(event);
     }
 }
 //>>> Clean Arch / Inbound Adaptor

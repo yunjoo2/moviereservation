@@ -72,6 +72,7 @@
                     { text: "startTime", value: "startTime" },
                     { text: "endTime", value: "endTime" },
                     { text: "director", value: "director" },
+                    { text: "seatCount", value: "seatCount" },
                 ],
             movie : [],
             newValue: {},
@@ -94,6 +95,7 @@
                 'startTime': '',
                 'endTime': '',
                 'director': '',
+                'seatCount': 0,
             }
         },
         methods: {

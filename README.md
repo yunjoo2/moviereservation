@@ -35,7 +35,7 @@ mvn spring-boot:run
 ## Test by API
 - movie
 ```
- http :8088/movies id="id" movieId="movieId" theaterId="theaterId" startTime="startTime" endTime="endTime" director="director" 
+ http :8088/movies id="id" movieId="movieId" theaterId="theaterId" startTime="startTime" endTime="endTime" director="director" seatCount="seatCount" 
 ```
 - myinfo
 ```
@@ -43,7 +43,7 @@ mvn spring-boot:run
 ```
 - reservation
 ```
- http :8088/reservations id="id" theaterId="theaterId" seatNumber="seatNumber" movieId="movieId" userId="userId" seaCount="seaCount" 
+ http :8088/reservations id="id" theaterId="theaterId" seatNumber="seatNumber" movieId="movieId" userId="userId" seatCount="seatCount" 
 ```
 - point
 ```
