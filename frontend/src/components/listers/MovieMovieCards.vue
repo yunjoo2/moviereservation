@@ -114,6 +114,7 @@
                 'startTime': '',
                 'endTime': '',
                 'director': '',
+                'seatCount': 0,
             }
         },
         methods:{

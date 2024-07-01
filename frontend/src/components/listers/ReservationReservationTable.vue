@@ -71,7 +71,7 @@
                     { text: "seatNumber", value: "seatNumber" },
                     { text: "movieId", value: "movieId" },
                     { text: "userId", value: "userId" },
-                    { text: "seaCount", value: "seaCount" },
+                    { text: "seatCount", value: "seatCount" },
                 ],
             reservation : [],
             newValue: {},
@@ -93,7 +93,7 @@
                 'seatNumber': '',
                 'movieId': '',
                 'userId': '',
-                'seaCount': 0,
+                'seatCount': 0,
             }
         },
         methods: {

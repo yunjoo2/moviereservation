@@ -28,6 +28,8 @@ public class Movie {
 
     private String director;
 
+    private Integer seatCount;
+
     @PostPersist
     public void onPostPersist() {
         MovieSelected movieSelected = new MovieSelected(this);

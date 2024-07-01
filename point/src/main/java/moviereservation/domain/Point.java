@@ -51,8 +51,6 @@ public class Point {
         Point point = new Point();
         repository().save(point);
 
-        PointAdded pointAdded = new PointAdded(point);
-        pointAdded.publishAfterCommit();
         */
 
         /** Example 2:  finding and process
@@ -62,8 +60,6 @@ public class Point {
             point // do something
             repository().save(point);
 
-            PointAdded pointAdded = new PointAdded(point);
-            pointAdded.publishAfterCommit();
 
          });
         */
@@ -79,8 +75,6 @@ public class Point {
         Point point = new Point();
         repository().save(point);
 
-        PointRemoved pointRemoved = new PointRemoved(point);
-        pointRemoved.publishAfterCommit();
         */
 
         /** Example 2:  finding and process
@@ -90,8 +84,6 @@ public class Point {
             point // do something
             repository().save(point);
 
-            PointRemoved pointRemoved = new PointRemoved(point);
-            pointRemoved.publishAfterCommit();
 
          });
         */

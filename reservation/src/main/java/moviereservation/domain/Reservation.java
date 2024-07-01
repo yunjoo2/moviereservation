@@ -27,7 +27,7 @@ public class Reservation {
 
     private String userId;
 
-    private Integer seaCount;
+    private Integer seatCount;
 
     @PostPersist
     public void onPostPersist() {

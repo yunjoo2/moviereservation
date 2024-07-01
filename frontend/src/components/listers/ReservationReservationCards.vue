@@ -113,7 +113,7 @@
                 'seatNumber': '',
                 'movieId': '',
                 'userId': '',
-                'seaCount': 0,
+                'seatCount': 0,
             }
         },
         methods:{
