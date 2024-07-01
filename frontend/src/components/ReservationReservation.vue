@@ -39,14 +39,7 @@
                     text
                     @click="save"
                 >
-                    Cancel
-                </v-btn>
-                <v-btn
-                    color="primary"
-                    text
-                    @click="save"
-                >
-                    Ticketing
+                저장
                 </v-btn>
                 <v-btn
                     color="primary"
